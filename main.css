@@ -6,9 +6,18 @@ body {
   background-image: url("https://heropy.blog/css/images/pattern.png");
 }
 .form {
+  background-color: #FFF;
   width: 400px;
   box-sizing: border-box;
   box-shadow: 0 6px 10px rgba(0,0,0,0.07);
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 6px;
+margin-left: auto;
+margin-right: auto;
 }
 .form p {
   margin-top: 0;
@@ -21,34 +30,63 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
+  margin-bottom: 10px;
 }
 .form .btn {
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
   cursor: pointer;
   background-color: #FFA32D;
   color: #FFF;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 .card {
+  height: 240px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  background-color: #FFF;
   box-sizing: border-box;
   box-shadow: 0 6px 10px rgba(0,0,0,0.07);
   display: none;
   /* display: flex; */
   align-items: center;
   gap: 16px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
 }
 .card.show {
   display: flex;
 }
 .card .photo {
+  border-radius: 15px;
   width: 150px;
   height: 150px;
   flex-shrink: 0;
 }
 .card .name {
   letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
 }
 .card .title,
 .card .phone,
 .card .email {
+width: auto;
   display: flex;
   align-items: center;
   margin-bottom: 6px;
